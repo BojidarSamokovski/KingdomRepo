@@ -6,7 +6,13 @@ namespace KingdomDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            King king = new King();
+            king.Fight();
+            king.WashMySocks();
+            Queen queen = new Queen();
+            queen.Fight();
+            Troll troll = new Troll();
+            troll.Fight();
         }
     }
 }
